@@ -53,5 +53,5 @@ servidor. Y en los clientes solo ponemos la IP del servidor y la
 del equipo en el que estemos.
 
 Y deberia iniciarse así:
-!(http://imgur.com/D75TpzC)
+!(https://imgur.com/D75TpzC)
 ---
