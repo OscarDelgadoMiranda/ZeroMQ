@@ -53,5 +53,5 @@ servidor. Y en los clientes solo ponemos la IP del servidor y la
 del equipo en el que estemos.
 
 Y deberia iniciarse así:
-!(https://imgur.com/D75TpzC)
+![img](https://cloud.githubusercontent.com/assets/11409249/8037742/efd3811c-0dff-11e5-976f-da04051818c5.jpg)
 ---
