@@ -25,6 +25,12 @@ comiencen una nueva conexión entre ambos clientes, donde
 uno actuará como server y otro como cliente.
 
 ---
+***Requisitos previos**
+
+- Tener conexión a internet
+- Tener las librerías de zmq instaladas
+
+---
 ***¿Cómo se ejecuta?***
 
 Debemos de tener en cuenta si vamos usar el juego de manera
@@ -38,14 +44,14 @@ Primero ejecutamos el servidor (python Server.py), el cuál nos
 imprimirá la IP y los puerto que está usando.
 
 Segundo ejecutamos en un terminal diferente cada
-cliente(python cliente.py), este nos pidirá la IP del servidor, que
+cliente (python cliente.py), este nos pidirá la IP del servidor, que
 ya nos había mostrado este, y la IP que usará este cliente para
 jugar.
 
 Es necesario que cada cliente tenga una IP distinta, uno de ellos
 puede tener la IP que este usando el PC, la misma que usa el
 servidor, y el otro cliente debe de usar la IP de
-localhost(127.0.0.1)
+localhost (127.0.0.1)
 
 Si solo se quiere jugar con otro jugador dentro de una
 misma red, se decide un PC de dicha red para ejecutar el
