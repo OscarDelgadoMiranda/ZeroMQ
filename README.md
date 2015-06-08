@@ -23,6 +23,7 @@ partida. Una vez que el servidor tiene a más de un jugador
 esperando para jugar les pasa a estos sus IP para que
 comiencen una nueva conexión entre ambos clientes, donde
 uno actuará como server y otro como cliente.
+
 ---
 ***¿Cómo se ejecuta?***
 
@@ -52,5 +53,5 @@ servidor. Y en los clientes solo ponemos la IP del servidor y la
 del equipo en el que estemos.
 
 Y deberia iniciarse así:
-![Inicio](http://imgur.com/D75TpzC "Inicio")
+!(http://imgur.com/D75TpzC)
 ---
