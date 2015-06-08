@@ -25,7 +25,7 @@ comiencen una nueva conexión entre ambos clientes, donde
 uno actuará como server y otro como cliente.
 
 ---
-***Requisitos previos**
+***Requisitos previos***
 
 - Tener conexión a internet
 - Tener las librerías de zmq instaladas
