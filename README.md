@@ -19,7 +19,7 @@ entre servidor y distintos clientes, junto con la implementación del juego 3 en
 raya. Principalmente la finalidad del trabajo ha sido trabajar sobre las distintas
 conexiones y para probarlo hemos implementado el juego.
 
-El servidor actuará como una sala de espera, al cual se conectaran distintos
+El servidor actuará como una sala de espera, al cual se conectarán distintos
 clientes(jugadores) en busca de una partida. Una vez que el servidor tiene a más
 de un jugador esperando para jugar les pasa a estos sus IP para que comiencen
 una nueva conexión entre ambos clientes, donde uno actuará como server y otro
