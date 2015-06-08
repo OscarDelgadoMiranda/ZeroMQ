@@ -11,24 +11,25 @@ Componentes del grupo:
 ---
 ***Introducción***
 
-En el programa en conjunto, hemos hecho uso de Zmq para las
-conexiones entre servidor y distintos clientes, junto con la
-implementación del juego 3 en raya. Principalmente la finalidad
-del trabajo ha sido trabajar sobre las distintas conexiones y para
-probarlo hemos implementado el juego.
+Este proyecto consiste en el juego del 3 en raya de manera distribuida(cliente/servidor).
+Su utilidad principal es proporcionar una distraccion ludica a los usuarios.
 
-El servidor actuara como una sala de espera, al cual se
-conectarán distintos clientes(jugadores) en busca de una
-partida. Una vez que el servidor tiene a más de un jugador
-esperando para jugar les pasa a estos sus IP para que
-comiencen una nueva conexión entre ambos clientes, donde
-uno actuará como server y otro como cliente.
+En el programa en conjunto, hemos hecho uso de Zmq para las conexiones
+entre servidor y distintos clientes, junto con la implementacion del juego 3 en
+raya. Principalmente la nalidad del trabajo ha sido trabajar sobre las distintas
+conexiones y para probarlo hemos implementado el juego.
+
+El servidor actuara como una sala de espera, al cual se conectaran distintos
+clientes(jugadores) en busca de una partida. Una vez que el servidor tiene a mas
+de un jugador esperando para jugar les pasa a estos sus IP para que comiencen
+una nueva conexion entre ambos clientes, donde uno actuara como server y otro
+como cliente.
 
 ---
 ***Requisitos previos***
 
-- Tener conexión a internet
-- Tener las librerías de zmq instaladas
+- Estar conectado a una red local
+- Tener las librerías de zmq instaladas (sudo apt-get install python-zmq)
 
 ---
 ***¿Cómo se ejecuta?***
